@@ -1,5 +1,5 @@
 // src/sections/Story/Story.tsx
-import "./Story.css";
+import "./story.css";
 import {useReveal} from "../../hooks/useReveal.ts";
 
 type Props = {
