@@ -1,0 +1,114 @@
+/* src/sections/Story/Story.css */
+
+.story {
+    width: 100%;
+    background: #274b53; /* نفس جو الخلفية فالصور */
+    padding: 22px 0 34px;
+}
+
+.story__container {
+    width: min(980px, 100%);
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.story__head {
+    margin: 0 0 14px;
+}
+
+.story__head--mt {
+    margin-top: 26px;
+}
+
+.story__h2 {
+    margin: 0 0 8px;
+    font-size: 34px;
+    line-height: 1.05;
+    font-weight: 800;
+    color: #ffd77c;
+}
+
+.story__h2--serif {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 800;
+}
+
+.story__p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #fbfbfb;
+    max-width: 56ch;
+}
+
+.story__p--serif {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 26px;
+    line-height: 1.15;
+}
+
+.story__imgWrap {
+    margin: 16px 0 0;
+    border-radius: 0; /* فالصورة كيبان مربع */
+    overflow: hidden;
+}
+
+.story__imgWrap--mt {
+    margin-top: 14px;
+}
+
+.story__img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* CTA */
+.story__cta {
+    margin-top: 26px;
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.story__ctaTitle {
+    margin: 0 0 16px;
+    font-size: 22px;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.story__ctaBtn {
+    width: min(560px, 100%);
+    height: 74px;
+    border: 0;
+    border-radius: 16px;
+    background: #987f26; /* بني غامق */
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.story__ctaBtn:active {
+    transform: translateY(1px);
+}
+
+/* Responsive صغير */
+@media (max-width: 430px) {
+    .story__h2 {
+        font-size: 30px;
+    }
+    .story__p {
+        font-size: 18px;
+    }
+    .story__p--serif {
+        font-size: 22px;
+    }
+    .story__ctaBtn {
+        height: 64px;
+        font-size: 20px;
+    }
+}

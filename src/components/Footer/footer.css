@@ -1,0 +1,58 @@
+.footer {
+    background: #3b1f0f; /* بني غامق */
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* MAP */
+.footer__map iframe {
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* LOGO */
+.footer__logo {
+    display: flex;
+    justify-content: center; /* الوسط أفقيًا */
+    margin: 30px 0;
+}
+
+.footer__logo img {
+    width: 90px;
+    height: auto;
+}
+
+/* INFOS */
+.footer__infos {
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* SOCIAL */
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin: 20px 0;
+}
+
+.footer__social img {
+    width: 30px;
+}
+
+/* خط أبيض شفاف */
+.footer__divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 25px 0;
+}
+
+/* COPYRIGHT */
+.footer__copy {
+    font-size: 14px;
+    opacity: 0.85;
+}

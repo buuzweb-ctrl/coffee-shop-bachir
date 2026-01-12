@@ -1,0 +1,63 @@
+.values{
+    background:#fdf6ee;
+    padding:70px 16px;
+}
+
+.values__grid{
+    max-width:1100px;
+    margin:0 auto;
+    display:grid;
+    gap:26px;
+}
+
+.value{
+    padding:46px 22px;
+    text-align:center;
+}
+
+.value--gold{
+    background:#9b6a22;
+    color:#fff;
+}
+
+.value--dark{
+    background:#2c231c;
+    color:#fff;
+}
+
+.value--shipping{
+    background: #283618;
+}
+
+/* PNG ICON */
+.value__iconImg{
+    width:48px;
+    height:48px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 18px;
+}
+
+/* TITLE */
+.value__title{
+    margin:0 0 16px;
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+/* TEXT */
+.value__text{
+    margin:0 auto;
+    max-width:520px;
+    font-size:18px;
+    line-height:1.65;
+    opacity:.95;
+}
+
+@media(min-width:900px){
+    .values__grid{
+        grid-template-columns:repeat(3, 1fr);
+    }
+}

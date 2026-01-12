@@ -1,0 +1,43 @@
+.about {
+    position: relative;
+    padding: 100px 20px;
+
+    /* صورة الخلفية */
+    background-image: url("/public/images/about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Overlay (الشفافية هنا 👇) */
+.about__overlay {
+    position: absolute;
+    inset: 0;
+
+    /* بدّل اللون و الشفافية كيف بغيت */
+    background: rgba(58, 36, 20, 0.9);
+    /* 0.78 = شفافية ممتازة */
+}
+
+.about__container {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about__title {
+    color: #ffcd00;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.about__text {
+    color: #f1ede7;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    font-style: italic;
+}

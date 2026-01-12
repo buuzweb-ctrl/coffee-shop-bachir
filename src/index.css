@@ -1,0 +1,147 @@
+/* =========================
+   Global reset & base
+========================= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+/* =========================
+   Root variables
+========================= */
+
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: #111;
+    background-color: #FFF7F2;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================
+   Body
+========================= */
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* =========================
+   Root container
+========================= */
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* =========================
+   Typography
+========================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* =========================
+   Links
+========================= */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* =========================
+   Images
+========================= */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* =========================
+   Buttons
+========================= */
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* =========================
+   Light / Dark (optional)
+========================= */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color: #ffffff;
+        background-color: #121212;
+    }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 650ms ease, transform 650ms ease;
+    will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* اختيارية: effect خفيف للصور */
+.reveal--fade {
+    transform: none;
+}
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-18px);
+    transition: 650ms ease;
+}
+.reveal-right {
+    opacity: 0;
+    transform: translateX(18px);
+    transition: 650ms ease;
+}
+.reveal-left.is-visible,
+.reveal-right.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
