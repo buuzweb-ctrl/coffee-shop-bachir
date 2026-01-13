@@ -215,7 +215,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-caramel",
                 title: "Caramel",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de caramel onctueux, idéal pour ajouter une note sucrée et gourmande aux cafés. Parfait pour boissons, desserts et cocktails.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/caramel.jpg"],
                 badge: "750 ml",
@@ -224,7 +224,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-ginger",
                 title: "Ginger",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de gingembre au goût épicé et légèrement piquant, intense et aromatique. Idéal pour thés, infusions, chocolats chauds et boissons froides.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/ginger.jpg"],
                 badge: "750 ml",
@@ -233,7 +233,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-hazelnut",
                 title: "Hazelnut",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de noisette ODK au goût authentique des noisettes du Piémont, riche et gourmand. Idéal pour sublimer les boissons à base de café, chaudes ou froides." +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/hazelnut.jpg"],
                 badge: "750 ml",
@@ -242,7 +242,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-mojito",
                 title: "Mojito",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Mojito ODK sans alcool, alliant fraîcheur de la menthe, douceur du sucre de canne et arôme de rhum. Goût intense et rafraîchissant.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/mojito.jpg"],
                 badge: "750 ml",
@@ -251,7 +251,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-raspberry",
                 title: "Raspberry",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de framboise ODK aux notes douces et fruitées, avec une légère touche acidulée. Parfait pour apporter fraîcheur et vivacité aux mocktails et cocktails.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/raspberry.jpg"],
                 badge: "750 ml",
@@ -260,7 +260,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-pina-colada",
                 title: "Pina Colada",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Piña Colada ODK aux notes exotiques, alliant l’ananas et la douceur de la noix de coco. Alternative sans alcool parfaite pour une boisson tropicale et gourmande.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/pina-colada.jpg"],
                 badge: "750 ml",
@@ -269,7 +269,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-macaron",
                 title: "Macaron",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Macaron ODK aux notes d’amande et de sucre, inspiré des célèbres pâtisseries françaises. Douceur équilibrée, idéal pour sublimer boissons et recettes gourmandes.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/macaron.jpg"],
                 badge: "750 ml",
@@ -278,7 +278,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-passion",
                 title: "Passion Fruit",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Fruit de la Passion ODK aux saveurs exotiques, alliant douceur et acidité. Idéal pour cocktails, limonades et thés glacés, seul ou avec d’autres fruits tropicaux.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/passion-fruit-1.jpg"],
                 badge: "750 ml",
@@ -287,7 +287,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-mango",
                 title: "Mango",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de mangue ODK aux saveurs exotiques et à la douceur juteuse. Idéal pour cocktails, smoothies et punches aux fruits tropicaux.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/mango.jpg"],
                 badge: "750 ml",
@@ -296,7 +296,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-peche-blanc",
                 title: "Peche Blanc",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de pêche blanche ODK au goût doux, fruité et intensément aromatique. Idéal pour cocktails, mocktails, milk-shakes et boissons glacées.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/white-peach.jpg"],
                 badge: "750 ml",
@@ -305,7 +305,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-margarita",
                 title: "Margarita",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Margarita ODK sans alcool, à l’équilibre parfait entre citron, citron vert et une touche de sucre. Idéal pour cocktails, mocktails et sodas aromatisés, aussi délicieux en version frozen.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/margarita-1.jpg"],
                 badge: "750 ml",
@@ -314,7 +314,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-salted-caramel",
                 title: "Salted Caramel",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Caramel Beurre Salé ODK, onctueux et velouté, à l’équilibre parfait entre douceur et touche salée. Une saveur gourmande au caractère unique pour sublimer vos boissons.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/salted-caramel.jpg"],
                 badge: "750 ml",
@@ -323,7 +323,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-blueberry",
                 title: "Blueberry",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de myrtille ODK à la saveur fraîche et fruitée, alliant douceur et légère acidité. Idéal pour cocktails, smoothies et boissons rafraîchissantes.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/blueberry.jpg"],
                 badge: "750 ml",
@@ -332,7 +332,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-tea-matcha",
                 title: "Tea Matcha",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de thé matcha ODK au goût caractéristique, légèrement amer et parfaitement équilibré. Idéal pour cocktails, mocktails, milk-shakes et boissons à base de café.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/tea-matcha.jpg"],
                 badge: "750 ml",
@@ -341,7 +341,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-lemon",
                 title: "Lemon",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop de citron ODK au parfum frais et vif, inspiré de la côte Amalfitaine. Idéal pour cocktails, mocktails, milk-shakes et boissons glacées.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/lemon-2.jpg"],
                 badge: "750 ml",
@@ -351,7 +351,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-caramel-sans-suger",
                 title: "Caramel Sans Sugre",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Caramel ODK 100 % sans sucre, à l’arôme authentique et faible en calories. Idéal pour cocktails, mocktails, milk-shakes et boissons à base de café.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/caramel-sans-sucre.jpg"],
                 badge: "750 ml",
@@ -361,7 +361,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-vanilla-sans-suger",
                 title: "Vanilla Sans Sugre",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Vanille ODK 100 % sans sucre, à la douceur naturelle et délicate de la vanille. Idéal pour cocktails, mocktails, milk-shakes et boissons à base de café.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/vanilla-barista-sans-sucre.jpg"],
                 badge: "750 ml",
@@ -371,7 +371,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-hazelnut-sans-suger",
                 title: "Hazelnut Sans Sugre",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop Noisette ODK 100 % sans sucre, à l’arôme authentique des noisettes des Langhe. Idéal pour cocktails, mocktails, milk-shakes et boissons à base de café.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/hazelnut-sugrafree-sans-sucre.jpg"],
                 badge: "750 ml",
@@ -382,7 +382,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-iced-tea-lemon",
                 title: "Iced Tea Lemon",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop ODK Iced Tea Citron alliant les notes aromatiques du thé à la fraîcheur acidulée du citron. Idéal pour boissons glacées, mocktails et cocktails.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/iced-tea-lemon.jpg"],
                 badge: "750 ml",
@@ -391,7 +391,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-iced-tea-peche",
                 title: "Iced Tea Peche",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop ODK Iced Tea Pêche alliant l’arôme du thé noir à la douceur fruitée de la pêche. Idéal pour boissons glacées, mocktails et cocktails.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/iced-tea-peach.jpg"],
                 badge: "750 ml",
@@ -400,7 +400,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-iced-tea-rooibos",
                 title: "Iced Tea Rooibos",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxù.\n" +
+                description: "Sirop ODK Iced Tea Rooibos / Thé Rouge aux notes douces, sucrées et fruitées. Idéal pour boissons glacées, mocktails et cocktails, avec une touche de caractère.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/ice-tea-rooibos.jpg"],
                 badge: "750 ml",
