@@ -19,7 +19,7 @@ export default function Footer() {
 
             {/* LOGO فـ الوسط */}
             <div className="footer__logo">
-                <img src="src/assets/logo.png" alt="Coffee Shop Bachir" />
+                <img src="public/images/logo.png" alt="Coffee Shop Bachir" />
             </div>
 
             {/* معلومات */}

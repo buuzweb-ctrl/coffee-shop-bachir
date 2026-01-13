@@ -30,6 +30,7 @@
 .footer__infos {
     line-height: 1.6;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 /* SOCIAL */
