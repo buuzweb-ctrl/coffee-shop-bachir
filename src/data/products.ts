@@ -38,9 +38,7 @@ export const productGroups: ProductGroup[] = [
                 id: "kimbo-napoleon",
                 title: "Aroma Gold 100% Arabica (Grain)",
                 description:
-                    "Café en grains 100% Arabica, soigneusement sélectionné pour sa qualité.\n" +
-                    "Un équilibre parfait entre douceur et acidité, avec de subtiles notes d’amande.\n" +
-                    "Idéal pour le café américain et le café au lait.",
+                    "Café en grains 100% Arabica, soigneusement sélectionné pour sa qualité.Un équilibre parfait entre douceur et acidité.\n",
                 images: ["/images/products/kimbo/aroma_gold_100%_arabica_500.png"],
                 formats: [
                     { label: "250g", price: "45 Dh", color: "green" },
@@ -51,10 +49,8 @@ export const productGroups: ProductGroup[] = [
                 id: "kimbo-aroma-gold",
                 title: "Aroma Intenso (Grain)",
                 description:
-                    "Le Caffè Aroma Intenso de Kimbo est un café italien torréfié à l’ancienne, offrant un arôme riche et une intensité marquée.\n" +
-                    "Corps plein, notes douces et long arrière-goût.\n" +
-                    "Convient à tous les types de café.\n" +
-                    "Arabica 50 %.",
+                    "Le Caffè Aroma Intenso de Kimbo est un café italien torréfié à l’ancienne, offrant un arôme riche et une intensité marquée. Corps plein, notes douces et long arrière-goût.\n",
+
                 images: ["/images/products/kimbo/AROMA_INTENSO_500g.jpg"],
                 formats: [
                     { label: "250g", price: "39 Dh", color: "green" },
@@ -210,7 +206,8 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-tropical-blu",
                 title: "Tropical Blu",
-                description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.\n" +
+                description: "Sirop aux saveurs exotiques de fruits tropicaux, doux et rafraîchissant.\n" +
+                    "Idéal pour apporter une touche de fraîcheur et de douceur aux boissons et recettes.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/tropical-blu.jpg"],
                 badge: "750 ml",
