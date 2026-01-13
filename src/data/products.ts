@@ -206,8 +206,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-tropical-blu",
                 title: "Tropical Blu",
-                description: "Sirop aux saveurs exotiques de fruits tropicaux, doux et rafraîchissant.\n" +
-                    "Idéal pour apporter une touche de fraîcheur et de douceur aux boissons et recettes.\n" +
+                description: "Sirop aux saveurs exotiques de fruits tropicaux, doux et rafraîchissant. git Idéal pour apporter une touche de fraîcheur et de douceur aux boissons et recettes.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/tropical-blu.jpg"],
                 badge: "750 ml",
