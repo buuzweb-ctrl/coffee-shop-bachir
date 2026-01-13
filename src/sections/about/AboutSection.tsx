@@ -22,7 +22,7 @@ export default function AboutSection() {
                 </p>
 
                 <p className="about__text">
-                    Basés à <strong>Torino</strong>, nous privilégions la proximité, la
+                    Basés à <strong>Mohammedia</strong>, nous privilégions la proximité, la
                     qualité et des prix accessibles, afin que chaque tasse raconte une
                     histoire de passion et de savoir-faire.
                 </p>

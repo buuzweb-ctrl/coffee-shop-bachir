@@ -6,8 +6,8 @@ export default function Footer() {
     return (
         <footer ref={r} className="footer reveal">
             {/* العنوان */}
-            <h3 className="footer__title">il nostro negozio è qui</h3>
-            <p className="footer__address">Via Venaria, 50 a Torino</p>
+            <h3 className="footer__title">Notre point de vente est situé ici</h3>
+            <p className="footer__address">Boulevard Sebta, Mohammedia</p>
 
             {/* MAP */}
             <div className="footer__map">
