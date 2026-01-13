@@ -233,7 +233,7 @@ export const productGroups: ProductGroup[] = [
             {
                 id: "sirop-hazelnut",
                 title: "Hazelnut",
-                description: "Sirop de noisette ODK au goût authentique des noisettes du Piémont, riche et gourmand. Idéal pour sublimer les boissons à base de café, chaudes ou froides." +
+                description: "Sirop de noisette ODK au goût authentique des noisettes du Piémont, riche et gourmand. Idéal pour sublimer les boissons à base de café, chaudes ou froides.\n" +
                     "Bouteille 750 ml.",
                 images: ["/images/products/sirops/hazelnut.jpg"],
                 badge: "750 ml",
