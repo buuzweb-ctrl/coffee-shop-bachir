@@ -45,7 +45,7 @@ body {
     min-width: 320px;
     min-height: 100vh;
     overflow-x: hidden;
-
+    font-family: var(--font-main), serif;
 
 }
 
@@ -56,6 +56,7 @@ body {
 #root {
     width: 100%;
     min-height: 100vh;
+    --font-main: "Alexandria", sans-serif;
 }
 
 /* =========================
@@ -147,4 +148,34 @@ button {
 .reveal-right.is-visible {
     opacity: 1;
     transform: translateX(0);
+}
+
+
+/* =========================
+   fonts
+========================= */
+
+
+@font-face {
+    font-family: "Alexandria";
+    src: url("./assets/fonts/Alexandria-Regular.ttf") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alexandria";
+    src: url("./assets/fonts/Alexandria-Medium.ttf") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alexandria";
+    src: url("./assets/fonts/Alexandria-Bold.ttf") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }

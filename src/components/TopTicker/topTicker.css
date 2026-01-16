@@ -1,0 +1,58 @@
+.ticker {
+    width: 100%;
+    background: #2F5249;          /* بني غامق */
+    color: rgba(255,255,255,0.92);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    overflow: hidden;
+
+    position: sticky;
+    top: 60px;
+    z-index: 900;
+}
+
+.ticker__move {
+    display: flex;
+    width: max-content;
+    animation: ticker-scroll 18s linear infinite;
+}
+
+.ticker__track {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.ticker__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.ticker__icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex: 0 0 auto;
+}
+
+.ticker__sep {
+    opacity: 0.6;
+}
+
+/* الحركة */
+@keyframes ticker-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+
+/* إذا المستخدم مفضلش الحركة */
+@media (prefers-reduced-motion: reduce) {
+    .ticker__move {
+        animation: none;
+    }
+}

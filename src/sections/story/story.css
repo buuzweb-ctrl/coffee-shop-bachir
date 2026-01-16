@@ -9,7 +9,7 @@
 .story__container {
     width: min(980px, 100%);
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0;
 }
 
 .story__head {
@@ -25,13 +25,17 @@
     margin: 0 0 8px;
     font-size: 34px;
     line-height: 1.05;
-    font-weight: 800;
+
     color: #ffd77c;
+    font-weight: 500;
+    font-family: "Alexandria", serif;
 }
 
 .story__h2--serif {
     /*font-family: Georgia, "Times New Roman", Times, serif;*/
-    font-weight: 800;
+    font-weight: 500;
+    font-family: "Alexandria", serif;
+  
 }
 
 .story__p {
@@ -40,6 +44,7 @@
     line-height: 1.25;
     color: #fbfbfb;
     max-width: 56ch;
+
 }
 
 .story__p--serif {
@@ -66,14 +71,14 @@
 
 /* CTA */
 .story__cta {
-    margin-top: 26px;
     text-align: center;
-    padding: 10px 0 0;
+    padding: 6px 0 0;
+    margin: 5px 26px 5px;
 }
 
 .story__ctaTitle {
     margin: 0 0 16px;
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 0.08em;
     font-weight: 500;
     color: #ffffff;
@@ -100,16 +105,19 @@
 /* Responsive صغير */
 @media (max-width: 430px) {
     .story__h2 {
-        font-size: 30px;
+        font-size: 25px;
+
     }
     .story__p {
-        font-size: 18px;
+        font-size: 16px;
+        margin: 5px 0 5px 0;
     }
     .story__p--serif {
-        font-size: 22px;
+        font-size: 16px;
+        margin: 5px 0 5px 0;
     }
     .story__ctaBtn {
         height: 64px;
-        font-size: 20px;
+        font-size: 18px;
     }
 }

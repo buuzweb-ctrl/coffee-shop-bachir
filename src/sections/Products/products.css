@@ -10,7 +10,8 @@
     margin: 0;
     font-size: 20px;
     font-weight: 900;
-    color: #111;
+    color: #041e04;
+    font-family: "Alexandria", serif;
 }
 
 .products__desc {
@@ -199,11 +200,11 @@
 }
 
 .pcard__format--green {
-    background: #5b8f1f;
+    background: #233d4d;
 }
 
 .pcard__format--red {
-    background: #ff3b3b;
+    background: #FE7F2D;
 }
 
 /* Tablet */
