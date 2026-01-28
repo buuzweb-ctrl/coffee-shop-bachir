@@ -7,7 +7,7 @@
 
     position: sticky;
     top: 60px;
-    z-index: 900;
+    z-index: 800;
 }
 
 .ticker__move {

@@ -7,7 +7,7 @@ type Item = {
 
 const items: Item[] = [
     { text: "Coffee Shop Bachir vous souhaite la bienvenue", icon: "/images/logo.png" },
-    { text: "Livraison gratuite au Maroc", icon: "/images/icons/cup-of-drink.png" },
+    { text: "Livraison rapide partout au Maroc", icon: "/images/icons/cup-of-drink.png" },
     { text: "Produits originaux & sélection premium", icon: "/images/icons/fast-delivery.png" },
     { text: "0625232145", icon: "../src/assets/whatsapp.png" },
 ];

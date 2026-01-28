@@ -39,18 +39,19 @@
 }
 
 .story__p {
-    margin: 0;
+    margin: 0 auto;
     font-size: 20px;
     line-height: 1.25;
     color: #fbfbfb;
     max-width: 56ch;
-
+text-align: center;
 }
 
 .story__p--serif {
     /*font-family: Georgia, "Times New Roman", Times, serif;*/
     font-size: 20px;
     line-height: 1.15;
+
 }
 
 .story__imgWrap {

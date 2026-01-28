@@ -3,13 +3,11 @@
     --coffee-light: #f5efea;
 }
 
-/* =====================
-   NAVBAR
-===================== */
+/* NAV */
 .nav {
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 3000;
     width: 100%;
     background: var(--coffee-dark);
     transition: background 200ms ease, box-shadow 200ms ease;
@@ -22,16 +20,13 @@
 }
 
 .nav__inner {
-    height: 60px;
-    padding: 0 14px;
+    height: 64px;
+    padding: 0 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* =====================
-   BRAND
-===================== */
 .nav__brand {
     display: flex;
     align-items: center;
@@ -43,18 +38,16 @@
     display: block;
 }
 
-/* =====================
-   LINKS (DESKTOP)
-===================== */
+/* DESKTOP LINKS */
 .nav__links {
     display: none;
-    gap: 20px;
+    gap: 22px;
 }
 
 .nav__links a {
     color: var(--coffee-light);
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     opacity: 0.9;
 }
 
@@ -62,19 +55,28 @@
     opacity: 1;
 }
 
-/* =====================
-   BURGER
-===================== */
+/* BURGER */
 .nav__burger {
     width: 42px;
     height: 42px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4px;
+}
+
+.nav__burger span{
+    width: 40px;
+    height: 3px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 
 .burger-line {
@@ -85,68 +87,44 @@
     transition: transform 200ms ease, opacity 200ms ease;
 }
 
-/* X animation */
 .nav__burger.is-open .burger-line:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
+    transform: translateY(12px) rotate(45deg);
 }
 .nav__burger.is-open .burger-line:nth-child(2) {
     opacity: 0;
 }
 .nav__burger.is-open .burger-line:nth-child(3) {
-    transform: translateY(-6px) rotate(-45deg);
+    transform: translateY(-12px) rotate(-45deg);
 }
 
-/* =====================
-   DRAWER (MOBILE)
-===================== */
-.nav__drawer {
-    position: fixed;
-    top: 0;
-    right: -280px;
-    width: 280px;
-    height: 100vh;
-    background: var(--coffee-light);
-    box-shadow: -20px 0 40px rgba(0, 0, 0, 0.25);
-    transition: right 220ms ease;
-    z-index: 120;
-    padding-top: 80px;
+/* MOBILE DROPDOWN (CLASSIC) */
+.nav__mobile {
+    display: none;
+    background: rgba(59, 42, 26, 0.98);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 10px 16px 16px;
 }
 
-.nav__drawer.is-open {
-    right: 0;
-}
-
-.nav__drawerContent {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 0 20px;
-}
-
-.nav__drawerContent a {
-    padding: 14px;
-    border-radius: 14px;
+.nav__mobile a {
+    display: block;
+    padding: 12px 10px;
+    color: var(--coffee-light);
     font-weight: 700;
-    color: var(--coffee-dark);
-    background: rgba(59, 42, 26, 0.08);
+    border-radius: 10px;
 }
 
-/* =====================
-   BACKDROP
-===================== */
-.nav__backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 110;
+.nav__mobile a:hover {
+    background: rgba(255, 255, 255, 0.08);
 }
 
-/* =====================
-   TABLET & DESKTOP
-===================== */
+.nav__mobile.is-open {
+    display: block;
+}
+
+/* DESKTOP */
 @media (min-width: 768px) {
     .nav__inner {
-        height: 68px;
+        height: 72px;
         padding: 0 22px;
         max-width: 1200px;
         margin: 0 auto;
@@ -157,8 +135,7 @@
     }
 
     .nav__burger,
-    .nav__drawer,
-    .nav__backdrop {
-        display: none;
+    .nav__mobile {
+        display: none !important;
     }
 }

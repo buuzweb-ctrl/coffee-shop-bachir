@@ -14,19 +14,17 @@ export default function Navbar() {
     }, []);
 
     useEffect(() => {
-        document.body.style.overflow = isOpen ? "hidden" : "";
-        return () => {
-            document.body.style.overflow = "";
+        const onResize = () => {
+            if (window.innerWidth >= 768) setIsOpen(false);
         };
-    }, [isOpen]);
-
-    const close = () => setIsOpen(false);
+        window.addEventListener("resize", onResize);
+        return () => window.removeEventListener("resize", onResize);
+    }, []);
 
     return (
         <header className={`nav ${isScrolled ? "is-scrolled" : ""}`}>
             <div className="nav__inner">
-                {/* LOGO */}
-                <a href="#top" className="nav__brand" onClick={close}>
+                <a href="#top" className="nav__brand" onClick={() => setIsOpen(false)}>
                     <img src={logo} alt="Coffee Shop Bachir" className="nav__logo" />
                 </a>
 
@@ -38,10 +36,10 @@ export default function Navbar() {
                     <a href="#about">About</a>
                 </nav>
 
-                {/* BURGER */}
+                {/* MOBILE BUTTON */}
                 <button
                     className={`nav__burger ${isOpen ? "is-open" : ""}`}
-                    aria-label={isOpen ? "Close menu" : "Open menu"}
+                    aria-label="Menu"
                     aria-expanded={isOpen}
                     onClick={() => setIsOpen((v) => !v)}
                 >
@@ -51,32 +49,13 @@ export default function Navbar() {
                 </button>
             </div>
 
-            {/* MOBILE DRAWER */}
-            <div className={`nav__drawer ${isOpen ? "is-open" : ""}`}>
-                <div className="nav__drawerContent">
-                    <a onClick={close} href="#products">
-                        Produits
-                    </a>
-                    <a onClick={close} href="#story">
-                        Story
-                    </a>
-                    <a onClick={close} href="#menu">
-                        Menu
-                    </a>
-                    <a onClick={close} href="#about">
-                        About
-                    </a>
-                </div>
-            </div>
-
-            {/* BACKDROP */}
-            {isOpen && (
-                <button
-                    className="nav__backdrop"
-                    aria-label="Close menu"
-                    onClick={close}
-                />
-            )}
+            {/* MOBILE DROPDOWN */}
+            <nav className={`nav__mobile ${isOpen ? "is-open" : ""}`}>
+                <a href="#products" onClick={() => setIsOpen(false)}>Produits</a>
+                <a href="#story" onClick={() => setIsOpen(false)}>Story</a>
+                <a href="#menu" onClick={() => setIsOpen(false)}>Menu</a>
+                <a href="#about" onClick={() => setIsOpen(false)}>About</a>
+            </nav>
         </header>
     );
 }

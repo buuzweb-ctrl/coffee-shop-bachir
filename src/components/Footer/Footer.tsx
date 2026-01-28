@@ -31,9 +31,22 @@ export default function Footer() {
 
             {/* Social */}
             <div className="footer__social">
-                <img src="/images/icons/instagram.png" />
-                <img src="/images/icons/facebook.png" />
-                <img src="/images/icons/whatsapp.png" />
+                <a
+                    href="https://www.instagram.com/bachir.coffee.shop?igsh=MWg3NWxpMGl4MDBzdA=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                ><img src="/images/icons/instagram.png" /></a>
+                {/*<a*/}
+                {/*    href="https://www.instagram.com/bachir.coffee.shop?igsh=MWg3NWxpMGl4MDBzdA=="*/}
+                {/*    target="_blank"*/}
+                {/*    rel="noopener noreferrer"*/}
+                {/*><img src="/images/icons/facebook.png" /></a>*/}
+                <a
+                    href="https://wa.me/212662165773?text=Bonjour%20Coffee%20Shop%20Bachir"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                ><img src="/images/icons/whatsapp.png" /></a>
+
             </div>
 
             {/* خط فاصل */}

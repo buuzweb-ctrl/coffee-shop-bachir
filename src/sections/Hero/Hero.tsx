@@ -30,16 +30,16 @@ export default function Hero() {
                 <h1 className="hero__title">{current.title}</h1>
                 <p className="hero__subtitle">{current.subtitle}</p>
 
-                <div className="hero__dots" aria-label="banner dots">
-                    {banners.map((b, i) => (
-                        <button
-                            key={b.id}
-                            className={`hero__dot ${i === index ? "is-active" : ""}`}
-                            onClick={() => setIndex(i)}
-                            aria-label={`Go to banner ${i + 1}`}
-                        />
-                    ))}
-                </div>
+                {/*<div className="hero__dots" aria-label="banner dots">*/}
+                {/*    {banners.map((b, i) => (*/}
+                {/*        <button*/}
+                {/*            key={b.id}*/}
+                {/*            className={`hero__dot ${i === index ? "is-active" : ""}`}*/}
+                {/*            onClick={() => setIndex(i)}*/}
+                {/*            aria-label={`Go to banner ${i + 1}`}*/}
+                {/*        />*/}
+                {/*    ))}*/}
+                {/*</div>*/}
             </div>
         </section>
     );
